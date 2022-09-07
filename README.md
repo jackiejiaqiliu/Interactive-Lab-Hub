@@ -1,5 +1,5 @@
 # Jiaqi Liu's-Lab-Hub
-for [Interactive Device Design](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/)
+for [Developing and Designing Interactive Device](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/) @ Cornell Tech
 
 ## Labs
 
