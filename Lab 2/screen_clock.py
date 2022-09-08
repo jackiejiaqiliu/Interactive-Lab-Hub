@@ -102,6 +102,7 @@ while True:
     
     '''
     
+    #LAB 2 PART 1 PART E - CREATIVE CLOCK
 
     drawCurrentTime()
     
@@ -131,10 +132,6 @@ while True:
         x = int(width/2-font.getsize(statement)[0]/2)
         draw.text((x, y), statement, font=font, fill="#FFFFFF")
         
-
-    
-    #LAB 2 PART 1 PART E - CREATIVE CLOCK
-    #drawCurrentTime()
     
     # Display image.
     disp.image(image, rotation)
