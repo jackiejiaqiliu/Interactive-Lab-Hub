@@ -64,19 +64,6 @@ buttonA = digitalio.DigitalInOut(board.D23)
 buttonB = digitalio.DigitalInOut(board.D24)
 buttonA.switch_to_input()
 buttonB.switch_to_input()
-
-def drawCurrentTime():
-    draw.rectangle((0, 0, width, height), outline="#faf5ed", fill="#faf5ed")
-    
-    current_h = int(time.strftime("%H"))
-    current_m = int(time.strftime("%M"))
-    
-    colors = ["#D1E7FD","#C0DBFC","#AFCEFB","#A1C2FA","#91B7FA","#81AAF9","#6F9CF8","#5F90F8","#5085F7","#3D78F6","#376BE6","#315CD2","#2C4DC5","#273FB6","#2131A4","#1C2394","#161784","#120E77","#170D73","#1E0E70","#24106F","#2B116C","#30136B","#371569"]
-    
-    for i in range(current_h):
-        draw.rectangle((0, height/24*i, width, height/24*(i+1)), outline=colors[i], fill=colors[i])
-    
-    draw.rectangle((0,height/24*(current_h),width/60*(current_m),height/24*(current_h+1)),outline=colors[current_h], fill=colors[current_h])
     
 
 while True:
@@ -104,8 +91,20 @@ while True:
     
     #LAB 2 PART 1 PART E - CREATIVE CLOCK
 
-    drawCurrentTime()
+    # draw graphic of current time
+    draw.rectangle((0, 0, width, height), outline="#faf5ed", fill="#faf5ed")
     
+    current_h = int(time.strftime("%H"))
+    current_m = int(time.strftime("%M"))
+    
+    colors = ["#D1E7FD","#C0DBFC","#AFCEFB","#A1C2FA","#91B7FA","#81AAF9","#6F9CF8","#5F90F8","#5085F7","#3D78F6","#376BE6","#315CD2","#2C4DC5","#273FB6","#2131A4","#1C2394","#161784","#120E77","#170D73","#1E0E70","#24106F","#2B116C","#30136B","#371569"]
+    
+    for i in range(current_h):
+        draw.rectangle((0, height/24*i, width, height/24*(i+1)), outline=colors[i], fill=colors[i])
+    
+    draw.rectangle((0,height/24*(current_h),width/60*(current_m),height/24*(current_h+1)),outline=colors[current_h], fill=colors[current_h])
+    
+    # display message when button pressed
     if buttonA.value and not buttonB.value:  # just button B pressed
         draw.rectangle((0, 0, width, height), outline="black", fill="black")
         current_time = time.strftime("%m/%d/%Y  %H:%M")
