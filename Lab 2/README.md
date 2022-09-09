@@ -54,7 +54,7 @@ Please find a video recording of my simple clock demo [here](https://drive.googl
 
 My clock divides the minutes and hours of a day into boxes and rows on a canvas (each row represents an hour, each box in the row represents a minute). The boxes will show up one by one each minute. They are filled with different shades of blues, creating an overall gradient image that presents the progress of the day from dawn till dusk. The user can press the bottom button on the Adafruit MiniPiTFT at any point during the day, and a heart-warming message corresponding to the current time will greet the user, along with a digital clock that shows the exact time.
 
-TODO: [Verplank digram](http://www.billverplank.com/IxDSketchBook.pdf)!
+![Verplank digram](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Lab%202/IDD%20Lab%202%20Part%201E%20-%20Verplank%20Diagram.jpg)
 
 Please find the source code of my creative clock [here](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Lab%202/screen_clock.py).
 
