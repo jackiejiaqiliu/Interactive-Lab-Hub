@@ -55,9 +55,9 @@ https://user-images.githubusercontent.com/90330977/189428400-533f7fd1-59f4-4f91-
 
 My clock divides the minutes and hours of a day into boxes and rows on a canvas (each row represents an hour, each box in the row represents a minute). The boxes will show up one by one each minute. They are filled with different shades of blues, creating an overall gradient image that presents the progress of the day from dawn till dusk. The user can press the bottom button on the Adafruit MiniPiTFT at any point during the day, and a heart-warming message corresponding to the current time will greet the user, along with a digital clock that shows the exact time.
 
-![Verplank digram](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Lab%202/IDD%20Lab%202%20Part%201E%20-%20Verplank%20Diagram.jpg)
-
 Please find the source code [here](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Lab%202/screen_clock.py).
+
+![Verplank digram](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Lab%202/IDD%20Lab%202%20Part%201E%20-%20Verplank%20Diagram.jpg)
 
 ## Part F. 
 ### Make a short video of your modified barebones PiClock
