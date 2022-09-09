@@ -47,7 +47,7 @@ Done. Nothing to report.
 ## Part D. 
 ### Set up the Display Clock Demo
 
-Please find a video recording of my simple clock demo [here](https://drive.google.com/file/d/1XElczXUmpR0W6-xmSMlPBVIalR-tI_sG/view?usp=sharing).
+[Simple Clock Video Demo](https://drive.google.com/file/d/1XElczXUmpR0W6-xmSMlPBVIalR-tI_sG/view?usp=sharing).
 
 ## Part E.
 ### Modify the barebones clock to make it your own
@@ -56,12 +56,12 @@ My clock divides the minutes and hours of a day into boxes and rows on a canvas 
 
 ![Verplank digram](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Lab%202/IDD%20Lab%202%20Part%201E%20-%20Verplank%20Diagram.jpg)
 
-Please find the source code of my creative clock [here](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Lab%202/screen_clock.py).
+[View Source Code](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Lab%202/screen_clock.py).
 
 ## Part F. 
 ### Make a short video of your modified barebones PiClock
 
-Please find a video recording of my creative clock demo [here](https://drive.google.com/file/d/1aIdj07cyZeFy3m_rc6i34qqaJsF8lRO_/view?usp=sharing).
+[Creative Clock Video Demo](https://drive.google.com/file/d/1aIdj07cyZeFy3m_rc6i34qqaJsF8lRO_/view?usp=sharing).
 
 ## Part G. 
 ### Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
