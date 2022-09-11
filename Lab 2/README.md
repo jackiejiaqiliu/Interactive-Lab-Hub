@@ -67,6 +67,13 @@ https://user-images.githubusercontent.com/90330977/189429622-e52bc4b2-e949-48e9-
 ## Part G. 
 ### Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
+Add a personalized feature that allows the user to change the gradient color:
+
+By default, the gradient color will be determined by the current season (green - spring, red - summer, orange - fall, winter - blue).
+
+However, if the user feels like the weather on that day feels like another season (for example, a very cold day in the fall that feels like winter), they can presses the top button on miniPiTFT, and change it to the color that fits their current feeling.
+
+![gradient colors](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Lab%202/IDD%20Lab%202%20Part%201G%20-%20Gradient%20Colors.png)
 
 
 # Prep for Part 2
