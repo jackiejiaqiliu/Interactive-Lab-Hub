@@ -89,4 +89,9 @@ Feedback:
 
 Please find the source code [here](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Lab%202/screen_clock%20-%20Part%202.py).
 
+Updated Design:
+
+![Verplank digram](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Lab%202/IDD%20Lab%202%20Part%202%20-%20Verplank%20Diagram.jpg)
+
+
 
