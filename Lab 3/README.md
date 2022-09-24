@@ -29,6 +29,10 @@ Please find my shell file [here](https://github.com/jackiejiaqiliu/Interactive-L
 
 ![Script Flow Chart](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Lab%203/IDD%20Lab%203%20-%20Script:Flowchart.jpg)
 
+\*\***Storyboard**\*\*
+
+![Storyboard](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Lab%203/IDD%20Lab%203%20-%20Storyboard.jpg)
+
 
 \*\***Please describe and document your process.**\*\*
 
