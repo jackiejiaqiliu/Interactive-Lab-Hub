@@ -21,11 +21,14 @@ Please find my shell file [here](https://github.com/jackiejiaqiliu/Interactive-L
 
 ### Storyboard
 
-Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stuck? Make a device that talks for dogs. If that is too stupid, find an application that is better than that.) 
+\*\***Verplank Diagram**\*\*
 
-\*\***Post your storyboard and diagram here.**\*\*
+![Verplank digram](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Lab%203/IDD%20Lab%203%20-%20Verplak%20Diagram.jpg)
 
-Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
+\*\***Script / Flowchart**\*\*
+
+![Script Flow Chart](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Lab%203/IDD%20Lab%203%20-%20Script:Flowchart.jpg)
+
 
 \*\***Please describe and document your process.**\*\*
 
