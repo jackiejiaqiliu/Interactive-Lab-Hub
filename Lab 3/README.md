@@ -33,14 +33,25 @@ Please find my shell file [here](https://github.com/jackiejiaqiliu/Interactive-L
 
 ![Storyboard](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Lab%203/IDD%20Lab%203%20-%20Storyboard.jpg)
 
-
 \*\***Please describe and document your process.**\*\*
+
+AAt first, I was thinking about creating a voice game that relies heavily on voice recognition. However, after testing out the voice-recognition software we are using for this lab, I realized that it is not accurate enough for that game. So I switched to this current idea that uses minimal voice recognition but a lot of voice recordings. 
+
+I started by coming up with the Verplank diagram -- understanding what problem this device solves and how exactly it will solve it. Basically, it is a voice memo device that allows users to record short messages for themselves and replay them whenever needed later on. Since all interactions are voice-based, and the flow of logic follows a decision tree that has multiple levels, I found it helpful to come up with a script/flowchart to comb through the logic before drawing the storyboard.
 
 ### Acting out the dialogue
 
-Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
+https://user-images.githubusercontent.com/90330977/192116573-c20feefb-efb1-4083-b878-d20057597f1c.mp4
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
+
+The majority of the conversations have been similar to what I expected. One deviation from expectation was when all existing messages had been played, the user wouldn't wait for the device to return to the main menu and repeat the instructions. A solution would be to give the user the option to directly record a new message at this point.
+
+Also, I found the instructions a little repetitive when after acting out. However, I still choose to prioritize clarity over succinctness, as I believe knowing the instruction throughout the interation is essential in this voice-only system.
+
+\*\***Updated Script / Flowchart after acting out**\*\*
+
+![Updated Script Flow Chart](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Lab%203/IDD%20Lab%203%20-%20Updated%20Script:Flowchart.jpg)
 
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
