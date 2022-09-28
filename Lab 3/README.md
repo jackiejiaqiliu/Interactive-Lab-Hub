@@ -59,7 +59,7 @@ Also, I found the instructions a little repetitive when after acting out. Howeve
 
 \*\***Describe if the dialogue seemed different than what you imagined, or when acted out, when it was wizarded, and how.**\*\*
 
-I see the wizard controller as something that assists my design rather than change my design. I do not think the dialogue seemed too different than what I imagined and when it was acted out. However, this demo program inspired me to add a sensor interaction to my program, so it will no longer be a voice-only experience. When the user wants to quit the program, in addition to saying "quit" to the device, they can also waive the sensor to achive the same result.
+Since my device is voice-only, I do not think wizarding is neccessary for my design.
 
 # Lab 3 Part 2
 
