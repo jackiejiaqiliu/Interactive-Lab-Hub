@@ -59,7 +59,7 @@ Also, I found the instructions a little repetitive when after acting out. Howeve
 
 \*\***Describe if the dialogue seemed different than what you imagined, or when acted out, when it was wizarded, and how.**\*\*
 
-Since my device is voice-only, I do not think wizarding is neccessary for my design.
+Since my device is voice-only, and I can achieve the desired result with voice instruction, detection and recording through programming, I do not think wizarding is neccessary for my design.
 
 # Lab 3 Part 2
 
@@ -67,9 +67,19 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 
 ## Prep for Part 2
 
-1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
-2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
-3. Make a new storyboard, diagram and/or script based on these reflections.
+\*\***1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...**\*\*
+
+Wording - Since this is a voice-only device, I paid extra attention to the dialogue when I designed the interactions so that the instructions are clear and easy to understand. At this point, I do not think there's much to change.
+
+Timing - I adjusted the recording time of each .sh file. I made the recordings for all the one-word answers 2 seconds and the recordings for the voice messages 5 seconds. This way the user does not need to wait too long after they say the keyword and will have enough time to finish their short messages.
+
+Anticipation of misunderstanding - I wrote an else statement for all keyword recognition. So if the device fails to recognize the keyword said by the user, it will notify the user and prompt for a keyword again.
+
+\*\***2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?**\*\*
+
+To exit the program, the user can either say the word "quit" or wave the Accelerometer attached to the device. These two ways of interaction are both clearly stated in the voice instruction provided by the device
+
+\*\***3. Make a new storyboard, diagram and/or script based on these reflections.**\*\*
 
 ## Prototype your system
 
@@ -78,9 +88,16 @@ The system should:
 * use one or more sensors
 * require participants to speak to it. 
 
-*Document how the system works*
+\*\***Document how the system works**\*\*
 
-*Include videos or screencaptures of both the system and the controller.*
+This device is a voice memo device that allows users to record short messages for themselves and replay them whenever needed later on. The device provides a clear set of instructions through voice. It allows the user to play existing messages, record new messages, delete current messages, and quit the system by speaking the corresponding keyword to the device. Besides voice control, the user is also able to wave the sensor attached to the device to exit the program.
+
+\*\***Include videos or screencaptures of both the system and the controller.**\*\*
+
+My device is 100% voice-controlled so there is no controller.
+
+https://user-images.githubusercontent.com/90330977/192949369-5bc9833f-3a5a-4f7c-9793-9241bc1c1b1e.mp4
+
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
