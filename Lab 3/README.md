@@ -94,6 +94,8 @@ This device is a voice memo device that allows users to record short messages fo
 
 \*\***Include videos or screencaptures of both the system and the controller.**\*\*
 
+Please find my source code [here](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/tree/Fall2022/Lab%203/voice_memo)
+
 My device is 100% voice-controlled so there is no controller.
 
 https://user-images.githubusercontent.com/90330977/192949369-5bc9833f-3a5a-4f7c-9793-9241bc1c1b1e.mp4
@@ -105,7 +107,7 @@ Try to get at least two people to interact with your system. (Ideally, you would
 Answer the following:
 
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
+Both users found the system easy to interact. They know exactly what to say and do because they were provided clear instructions. They found this device a good way to record random thoughts and enjoyed using it. One minor issue is that one of the users accidentally moved the sensor so the program ended unexpectedly. We had to restart the program to continue.
 
 ### What worked well about the controller and what didn't?
 
