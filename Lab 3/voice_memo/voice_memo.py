@@ -35,7 +35,8 @@ def play_message(message):
     pygame.mixer.music.play()
     while pygame.mixer.music.get_busy()==True:
         continue
-    
+        
+# function to detect sensor movement
 def sensor_movement():
     i2c = board.I2C()
     msa = MSA311(i2c)
