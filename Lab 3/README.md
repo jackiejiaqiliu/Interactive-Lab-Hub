@@ -79,6 +79,14 @@ To exit the program, the user can either say the word "quit" or wave the Acceler
 
 \*\***3. Make a new storyboard, diagram and/or script based on these reflections.**\*\*
 
+Updated Storyboard:
+
+![Updated Storyboard](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Lab%203/IDD%20Lab%203%20Part%202%20-%20Updated%20Storyboard.jpg)
+
+Updated Script / Flow Chart:
+
+![Updated Script Flow Chart](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Lab%203/IDD%20Lab%203%20Part%202%20-%20Updated%20Script:Flowchart.jpg)
+
 ## Prototype your system
 
 The system should:
