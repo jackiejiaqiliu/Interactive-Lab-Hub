@@ -99,7 +99,7 @@ I prototyped design 1. I did not have a toy cat so I used a teddy bear as the "p
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
-One general question is that where I can hide my pi. I need to physically prototype these display devices so that I know how big they need to be, how I can fit my pi and all the part in it, and how to only show the parts the users need to interact with and hide the rest in the box.
+One general question is that where I can hide my pi. I need to physically prototype these display devices so that I know how big they need to be, how I can fit my pi and all the parts in it, and how to only show the parts the users need to interact with and hide the rest in the box.
 
 Another question is that since most of my designs have a display interface that is seperate from the device & the sensors, how can I connect them? Where do I need to put my display so that the user can view it & interact with my device at the same time? I might need to physically prototype them together to see if this is possible.
 
