@@ -61,6 +61,10 @@ F) [Record the interaction](#part-f)
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
+For the designs that use capacitive sensors, my main concern is the conductivity of the materials attached to the sensor. I might need to experiment with candidate materials first to determine the ones with the desired level of conductivity. 
+
+For ths designs that use distance sensor, there might be a problem with unwanted objects in range. For example, the sensor might mistake a tree for a human. Also, we need to figure out a way to attach the sensor to the device correctly, so that it will always face the right direction. I might need to create a physical prototype to test out the attachment.
+
 **\*\*\*Pick one of these designs to prototype.\*\*\***
 
 
