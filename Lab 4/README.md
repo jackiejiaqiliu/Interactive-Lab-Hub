@@ -67,6 +67,10 @@ For ths designs that use distance sensor, there might be a problem with unwanted
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
 
+I prototyped design 1. I did not have a toy cat so I used a teddy bear as the "pet". I attached a distance sensor to the teddy bear's lace bow tie and connected it to my pi.
+
+![sensor prototype](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Lab%204/physical%20prototype%20-%20sensor.JPG)
+
 
 ### Part D
 ### Physical considerations for displaying information and housing parts
@@ -95,14 +99,23 @@ For ths designs that use distance sensor, there might be a problem with unwanted
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
+One general question is that where I can hide my pi. I need to physically prototype these display devices so that I know how big they need to be, how I can fit my pi and all the part in it, and how to only show the parts the users need to interact with and hide the rest in the box.
+
+Another question is that since most of my designs have a display interface that is seperate from the device & the sensors, how can I connect them? Where do I need to put my display so that the user can view it & interact with my device at the same time? I might need to physically prototype them together to see if this is possible.
+
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
 
-**\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+I choose to integrate design 1 of display because it works together with the design 1 of sensors in part C. I already prototyped the sensor part so would like to see how these two parts of my design can work together.
 
-Build a cardbord prototype of your design.
+**\*\*\*Explain the rationale for the design.\*\*\*** 
+
+The display device is meant to be a small, hand-held device that allows the user to adjust the clinginess of their pets anytime and anywhere, so the device need to be properly sized for this purpose. There also need to be clear instructions on the physical interface that tell the user how they can interact with the device - to turn the dial and adjust the clinginess. I wrote the numbers 0-9 around the dial so the users have a clearer sense of how clingy their cat is with their current selection.
 
 **\*\*\*Document your rough prototype.\*\*\***
 
+Since I am using miniPiTFT as the LED screen to display information, and miniPiTFT can only be used when attached to the upper left corner of my pi, I had to figure out a way to fit it in a box, only reveal the LED screen, and properly hide the pi. During my experiment in prototyping the device, I realized that the original design I had was imposible to be prototyped. Because the miniPiTFT was already on the right side and there wasn't enough space to fit the pi in the box. To resolve this issue, I switched the positions of the dial and the screen and successfully prototyped the device.
+
+![prototype](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Lab%204/physical%20prototype%20-%20sensor%20%2B%20display.JPG)
 
 LAB PART 2
 
