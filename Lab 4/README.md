@@ -150,7 +150,9 @@ I use cardboard to prototype the display because it is a easily-accessible mater
 
 ![prototype](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Lab%204/part%20b%20prototype.jpg)
 
-####
+### Source Code:
+
+Please find my source code [here](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Lab%204/lab4.py).
 
 ### Demo Video:
 
