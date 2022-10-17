@@ -2,7 +2,7 @@
 
 **NAMES OF COLLABORATORS HERE**
 
-I did not collaborate with anyone.
+I did not collaborate with anyone for my designs. However, Gabriel (not affiliated with Cornell Tech) helped my act out the interactions in the demo video in part b)
 
 ## Lab Overview
 
@@ -117,8 +117,6 @@ Since I am using miniPiTFT as the LED screen to display information, and miniPiT
 
 ![prototype](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Lab%204/physical%20prototype%20-%20sensor%20%2B%20display.JPG)
 
-LAB PART 2
-
 ### Part 2
 
 Following exploration and reflection from Part 1, complete the "looks like," "works like" and "acts like" prototypes for your design, reiterated below.
@@ -126,37 +124,35 @@ Following exploration and reflection from Part 1, complete the "looks like," "wo
 ### Part E
 ### Servo Control with Joystick
 
-In the class kit, you should be able to find the [Qwiic Servo Controller](https://www.sparkfun.com/products/16773) and [Micro Servo Motor SG51](https://www.adafruit.com/product/2201). The Qwiic Servo Controller will need external power supply to drive, which are included in your kit. Connect the servo controller to the miniPiTFT through qwiic connector and connect the external battery to the 2-Pin JST port (ower port) on the servo controller. Connect your servo to channel 2 on the controller, make sure the brown is connected to GND and orange is connected to PWM.
-
-<img src="Servo_Setup.jpg" width="400"/>
-
-In this exercise, we will be using the nice [ServoKit library](https://learn.adafruit.com/16-channel-pwm-servo-driver/python-circuitpython) developed by Adafruit! We will continue to use the `circuitpython` virtual environment we created. Activate the virtual environment and make sure to install the latest required libraries by running:
-
-```
-(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ pip3 install -r requirements.txt
-```
-
-A servo motor is a rotary actuator or linear actuator that allows for precise control of angular or linear position. The position of a servo motor is set by the width of an electrical pulse, that is, we can use PWM (pulse-width modulation) to set and control the servo motor position. You can read [this](https://learn.adafruit.com/adafruit-arduino-lesson-14-servo-motors/servo-motors) to learn a bit more about how exactly a servo motor works.
-
-Now that you have a basic idea of what a servo motor is, look into the script `qwiic_servo_example.py` we provide. In line 14, you should see that we have set up the min_pulse and max_pulse corresponding to the servo turning 0 - 180 degree. Try running the servo example code now and see what happens:
-
-```
-(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ python servo_test.py
-```
-
-It is also possible to control the servo using the sensors mentioned in as in part A and part B, and/or from some of the buttons or parts included in your kit, the simplest way might be to chain Qwiic buttons to the other end of the Qwiic OLED. Like this:
-
-<p align="center"> <img src="chaining.png"  width="200" ></p>
-
-You can then call whichever control you like rather than setting a fixed value for the servo. For more information on controlling Qwiic devices, Sparkfun has several python examples, such as [this](https://learn.sparkfun.com/tutorials/qwiic-joystick-hookup-guide/all#python-examples).
-
-We encourage you to try using these controls, **while** paying particular attention to how the interaction changes depending on the position of the controls. For example, if you have your servo rotating a screen (or a piece of cardboard) from one position to another, what changes about the interaction if the control is on the same side of the screen, or the opposite side of the screen? Trying and retrying different configurations generally helps reveal what a design choice changes about the interaction -- _make sure to document what you tried_!
+(optional) My device does not require servo control with Joystick.
 
 ### Part F
 ### Record
 
-Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
-* "Looks like": shows how the device should look, feel, sit, weigh, etc.
-* "Works like": shows what the device can do
-* "Acts like": shows how a person would interact with the device
+For part B, I chose to implement my design #5 illustrated in part A.
+
+### About the design concept:
+
+Waking up every morning can be painful. Every morning, when the alarm goes off, many people would "snooze" it or turn it off and fall back asleep for a little while. As a result, they will risk being late for whatever they need to do in the morning. To help people wake up easier, I designed this device. When the alarm goes off, the user cannot turn it off manually, instead, they need to walk to a floor mat and jump on it for 8 times. 
+A movement like jumping can help users wake up better and faster. A screen display will be hanged on the wall in front of this floor mat, reminding the user how many times they jumped and finally notify the user when they are done with jumping 8 times and they are officially awake. Ideally, this device should be installed somewhere a little far away from the user's bed so that it is not easy for him to lie back down after jumping.
+
+### Implementation:
+
+This design mainly uses the capacitive sensor to detect jumps. The mat (made with a conductive material, metal) is connected to the sensor using copper tape. When the user's bare feet touch the mat, the sensor will recognize it as a jump and count accordingly. There is also a audio output because when the user finishes 8 jumps, there is a voice message confirming it.
+
+I use cardboard to prototype the display because it is a easily-accessible material. The main goal is to hide the pi and the sensors behind the cardboard and place the minipiTFT at the center of the device. I use copper tape to connect my sensor and the mat because the length of the copper tape can be easily adjusted. For prototyping purpose, I use tape to attach the device to the wall because I am not allowed to drill holes into the walls of my apartment. However, for future iterations, I might consider attaching it to the wall more securely using 
+
+### Sketches:
+
+![sketches](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Lab%204/part%20b%20-%20sketches.jpg)
+
+### Prototypes:
+
+![prototype](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Lab%204/part%20b%20prototype.jpg)
+
+####
+
+### Demo Video:
+
+https://user-images.githubusercontent.com/90330977/196087575-cadb8f3c-2741-4b73-8bff-7bd74d0c9759.mp4
 
