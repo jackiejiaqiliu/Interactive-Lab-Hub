@@ -23,17 +23,25 @@ D) [Reflect](#part-d)
 
 #### Contours Detection
 
+Design idea: Contours detection can be used for making computer-generated line drawings. If we only keep the contour lines in the image, we are able to turn an image into an abstract line drawing. We can also design a control panel that allows the user to adjust the width, color, and type of the strokes to make the drawing more personalized and creative.
+
 ![Contours Detection](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Lab%205/contours%20detection.png)
 
 #### Face Detection
+
+Design idea: This is more of an interactive art idea rather than a design idea that can help with a specific task in our daily lives. In the show "Person of Interest", the government develops a secret system, a machine that spies on everyone every hour of every day. The system gets information from every device that has an audio or video input that is connects to the internet -- from our own smartphones and laptops to the security cameras on the streets or in stores. I believe this kind of surveillance not only exists in this tv show, but also exists in the world we live in today. However, because many devices' surveillance feature is not visible, many people do not feel being "watched". So I wish to make an interactive art piece to discuss this issue. In an exhibition space, all the devices' audio or video input will be costumed to look like a human eye or ear. For example, the security camera or the two cameras on everyone's cellphone will look like an actual human eye. Utilizing face detection, the eyes follow the faces they see and stare at people. This piece should cause discomfort, raising awareness on surveillance and generate discussions.
 
 ![Face Detection](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Lab%205/face%20detection.png)
 
 #### Flow Detection
 
+Design idea: This idea get inspirations from the [light painting technique in photography](https://www.canon-europe.com/get-inspired/tips-and-techniques/light-painting-photography/). Currently, the model detects feature points automatically, but if we can make it custom (for example, allow user to select feature points manually), we can make this kind of light painting with the movement of anything, without a light source and long-exposure photography.
+
 ![Flow Detection](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Lab%205/flow%20detection.png)
 
 #### Object Detection
+
+Design idea: My desk gets messy very easily. Utilizing this object detection model, I can remind myself to clean up when neccessary. Whenever the number of object detected on the desk exceed a certain number, there will be a reminder for me to organize my desk.
 
 ![Object Detection](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Lab%205/object%20detection.png)
 
@@ -49,84 +57,6 @@ Using the accelerometer, try the following:
 **3. Set up peak detection** Can you identify when your signal reaches a peak and then goes down?
 
 **\*\*\*Include links to your code here, and put the code for these in your repo--they will come in handy later.\*\*\***
-
-### (Optional Reading) Introducing Additional Concepts
-The following sections ([MediaPipe](#mediapipe) and [Teachable Machines](#teachable-machines)) are included for your own optional learning. **The associated scripts will not work on Fall 2022's Pis, so you can move onto part B.** However, you are welcome to try it on your personal computer. 
-
-#### MediaPipe
-
-A more recent open source and efficient method of extracting information from video streams comes out of Google's [MediaPipe](https://mediapipe.dev/), which offers state of the art face, face mesh, hand pose, and body pose detection.
-
-![Alt Text](mp.gif)
-
-To get started, create a new virtual environment with special indication this time:
-
-```
-pi@ixe00:~ $ virtualenv mpipe --system-site-packages
-pi@ixe00:~ $ source mpipe/bin/activate
-(mpipe) pi@ixe00:~ $ 
-```
-
-and install the following.
-
-```
-...
-(mpipe) pi@ixe00:~ $ sudo apt install ffmpeg python3-opencv
-(mpipe) pi@ixe00:~ $ sudo apt install libxcb-shm0 libcdio-paranoia-dev libsdl2-2.0-0 libxv1  libtheora0 libva-drm2 libva-x11-2 libvdpau1 libharfbuzz0b libbluray2 libatlas-base-dev libhdf5-103 libgtk-3-0 libdc1394-22 libopenexr25
-(mpipe) pi@ixe00:~ $ pip3 install mediapipe-rpi3 pyalsaaudio
-```
-
-Each of the installs will take a while, please be patient. After successfully installing mediapipe, connect your webcam to your Pi and use **VNC to access to your Pi**, open the terminal, and go to Lab 5 folder and run the hand pose detection script we provide:
-(***it will not work if you use ssh from your laptop***)
-
-
-```
-(mpipe) pi@ixe00:~ $ cd Interactive-Lab-Hub/Lab\ 5
-(mpipe) pi@ixe00:~ Interactive-Lab-Hub/Lab 5 $ python hand_pose.py
-```
-
-Try the two main features of this script: 1) pinching for percentage control, and 2) "[Quiet Coyote](https://www.youtube.com/watch?v=qsKlNVpY7zg)" for instant percentage setting. Notice how this example uses hardcoded positions and relates those positions with a desired set of events, in `hand_pose.py` lines 48-53. 
-
-~~\*\*\*Consider how you might use this position based approach to create an interaction, and write how you might use it on either face, hand or body pose tracking.\*\*\*~~
-
-(You might also consider how this notion of percentage control with hand tracking might be used in some of the physical UI you may have experimented with in the last lab, for instance in controlling a servo or rotary encoder.)
-
-
-
-#### Teachable Machines
-Google's [TeachableMachines](https://teachablemachine.withgoogle.com/train) might look very simple. However, its simplicity is very useful for experimenting with the capabilities of this technology.
-
-![Alt Text](tm.gif)
-
-To get started, create and activate a new virtual environment for this exercise with special indication:
-
-```
-pi@ixe00:~ $ virtualenv tmachine --system-site-packages
-pi@ixe00:~ $ source tmachine/bin/activate
-(tmachine) pi@ixe00:~ $ 
-```
-
-After activating the virtual environment, install the requisite TensorFlow libraries by running the following lines:
-```
-(tmachine) pi@ixe00:~ $ cd Interactive-Lab-Hub/Lab\ 5
-(tmachine) pi@ixe00:~ Interactive-Lab-Hub/Lab 5 $ sudo chmod +x ./teachable_machines.sh
-(tmachine) pi@ixe00:~ Interactive-Lab-Hub/Lab 5 $ ./teachable_machines.sh
-``` 
-
-This might take a while to get fully installed. After installation, connect your webcam to your Pi and use **VNC to access to your Pi**, open the terminal, and go to Lab 5 folder and run the example script:
-(***it will not work if you use ssh from your laptop***)
-
-```
-(tmachine) pi@ixe00:~ Interactive-Lab-Hub/Lab 5 $ python tm_ppe_detection.py
-```
-
-
-(**Optionally**: You can train your own model, too. First, visit [TeachableMachines](https://teachablemachine.withgoogle.com/train), select Image Project and Standard model. Second, use the webcam on your computer to train a model. For each class try to have over 50 samples, and consider adding a background class where you have nothing in view so the model is trained to know that this is the background. Then create classes based on what you want the model to classify. Lastly, preview and iterate, or export your model as a 'Tensorflow' model, and select 'Keras'. You will find an '.h5' file and a 'labels.txt' file. These are included in this labs 'teachable_machines' folder, to make the PPE model you used earlier. You can make your own folder or replace these to make your own classifier.)
-
-~~**\*\*\*Whether you make your own model or not, include screenshots of your use of Teachable Machines, and write how you might use this to create your own classifier. Include what different affordances this method brings, compared to the OpenCV or MediaPipe options.\*\*\***~~
-
-
-*Don't forget to run ```deactivate``` to end the Teachable Machines demo, and to reactivate with ```source tmachine/bin/activate``` when you want to use it again.*
 
 
 ### Part B
