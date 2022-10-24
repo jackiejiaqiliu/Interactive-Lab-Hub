@@ -45,18 +45,9 @@ Design idea: My desk gets messy very easily. Utilizing this object detection mod
 
 ![Object Detection](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Lab%205/object%20detection.png)
 
-#### Filtering, FFTs, and Time Series data. (optional)
-Additional filtering and analysis can be done on the sensors that were provided in the kit. For example, running a Fast Fourier Transform over the IMU data stream could create a simple activity classifier between walking, running, and standing.
+#### Filtering, FFTs, and Time Series data. 
 
-Using the accelerometer, try the following:
-
-**1. Set up threshold detection** Can you identify when a signal goes above certain fixed values?
-
-**2. Set up averaging** Can you average your signal in N-sample blocks? N-sample running average?
-
-**3. Set up peak detection** Can you identify when your signal reaches a peak and then goes down?
-
-**\*\*\*Include links to your code here, and put the code for these in your repo--they will come in handy later.\*\*\***
+optional
 
 
 ### Part B
@@ -74,16 +65,20 @@ I decided to implement my design idea for object detection. This device reminds 
 
 Now flight test your interactive prototype and **note down your observations**:
 For example:
-1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
+1. When does it do what it is supposed to do?
+3. When does it fail?
+4. When it fails, why does it fail?
+5. Based on the behavior you have seen, what other scenarios could cause problems?
+
+The device is supposed to detect the number of object on the desk and remind the user when there are over 10 objects. It works well when there is minimal action and the objects are placed still on the desk. However, if the user moves the objects around, and their hands or head is in the screen, they will also be count as an "object", causing inaccuracy in number of object. Another failure is that when objects are too close to each other (especially when one object is right in front of another), the detection will also be inaccurate. 
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+2. How bad would they be impacted by a miss classification?
+3. How could change your interactive system to address this?
+4. Are there optimizations you can try to do on your sense-making algorithm.
+
+The user should be aware of the uncertainties in the system. They might be annoyed by the miss classification if the inaccuracy of the detection causes too many reminders for them to clean up. To address this, I might consider adding a button on the device to allow the user to turn off the reminder if they believe the desk is not messy. When the user presses this button, the number of object allowed will increase by 5. Regarding the sense-making algorithm, an improvement I can consider is to let it only detect objects that are still and avoid those that are moving. Although detecting moving object may be useful in other scenarios, it is not beneficial to this design.
 
 ### Part D
 ### Characterize your own Observant system
@@ -97,6 +92,8 @@ During the lecture, we mentioned questions to help characterize a material:
 * When it breaks how will X break?
 * What are other properties/behaviors of X?
 * How does X feel?
+
+This device helps you keep your desk organized. It detects the number of object on the desk and remind the user when there are too many objects. The ideal environment for this device is at the user's own desk at home. A public desk in a library might not be a good environment for it. When there are actions happening on the desk, the device sometimes accidentally detects the user's hand as an object. To resolve this issue, we added a button on the device to allow the user to turn off the reminder if they believe the desk is not messy. 
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 
