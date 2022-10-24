@@ -62,12 +62,12 @@ Using the accelerometer, try the following:
 ### Part B
 ### Construct a simple interaction.
 
-* Pick one of the models you have tried, and experiment with prototyping an interaction.
-* This can be as simple as the boat detector showen in a previous lecture from Nikolas Matelaro.
-* Try out different interaction outputs and inputs.
-* Fill out the ``Contextual Interaction Design Tool`` sheet.[Found here.](ThinkingThroughContextandInteraction.png)
-
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
+
+I decided to implement my design idea for object detection. This device reminds me to clean up my desk when neccessary. Whenever the number of object detected on the desk exceed a 10, the device will send out a voice reminder, reminding me to organize my desk. To avoid false detection, there is also a button on the device that allows the user to turn off the reminder if they believe the desk is not messy.
+
+#### Contextual Interaction Design Tool Sheet
+![Contextual Interaction Design Tool Sheet](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Lab%205/ThinkingThroughContextandInteraction.png)
 
 ### Part C
 ### Test the interaction prototype
