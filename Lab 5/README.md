@@ -97,6 +97,10 @@ This device helps you keep your desk organized. It detects the number of object 
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 
+https://user-images.githubusercontent.com/90330977/197608249-3c3cb39c-ddcd-49c7-8bda-be3dd2690be2.mp4
+
+
+
 ### Part 2.
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
