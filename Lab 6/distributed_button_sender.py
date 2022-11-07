@@ -1,7 +1,7 @@
 import time
 import board
 import busio
-import adafruit_mpr121
+import qwiic_button
 
 import paho.mqtt.client as mqtt
 import uuid
@@ -14,17 +14,15 @@ client.connect(
     'farlab.infosci.cornell.edu',
     port=8883)
 
-topic = 'IDD/your/topic/here'
+topic = 'IDD/your/topic/button'
 
 i2c = busio.I2C(board.SCL, board.SDA)
-
-mpr121 = adafruit_mpr121.MPR121(i2c)
+button = qwiic_button.QwiicButton()
+button.begin()
 
 while True:
-    for i in range(12):
-        if mpr121[i].value:
-        	val = f"Twizzler {i} touched!"
-        	print(val)
-        	client.publish(topic, val)
+    if button.is_button_pressed():
+        val = "pressed"
+        print(val)
+        client.publish(topic, val)
     time.sleep(0.25)
-
