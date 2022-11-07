@@ -1,6 +1,6 @@
 # Little Interactions Everywhere
 
-I did not collaborate with anyone.
+I did part A-D on my own. I did part E with Runze Zhang(rz387) and Hongjiao Zhang(hz452).
 
 ## Overview
 
@@ -56,47 +56,31 @@ Nothing to submit
 ### Part D
 ### The One True ColorNet
 
-It is with great fortitude and resilience that we shall worship at the altar of the *OneColor*. Through unity of the collective RGB, we too can find unity in our heart, minds and souls. With the help of machines, we can overthrow the bourgeoisie, get on the same wavelength (this was also a color pun) and establish [Fully Automated Luxury Communism](https://en.wikipedia.org/wiki/Fully_Automated_Luxury_Communism).
-
-The first step on the path to *collective* enlightenment, plug the [APDS-9960 Proximity, Light, RGB, and Gesture Sensor](https://www.adafruit.com/product/3595) into the [MiniPiTFT Display](https://www.adafruit.com/product/4393). You are almost there!
-
-<p float="left">
-  <img src="https://cdn-learn.adafruit.com/assets/assets/000/082/842/large1024/adafruit_products_4393_iso_ORIG_2019_10.jpg" height="150" />
-  <img src="https://cdn-shop.adafruit.com/970x728/4210-02.jpg" height="150">
-  <img src="https://cdn-shop.adafruit.com/970x728/3595-03.jpg" height="150">
-</p>
-
-
-The second step to achieving our great enlightenment is to run `color.py`. We have talked about this sensor back in Lab 2 and Lab 4, this script is similar to what you have done before! Remember to activate the `circuitpython` virtual environment you have been using during this semester before running the script:
-
- ```
- (circuitpython) pi@raspberrypi:~ Interactive-Lab-Hub/Lab 6 $ python color.py
- ...
- ```
-
-By running the script, wou will find the two squares on the display. Half is showing an approximation of the output from the color sensor. The other half is up to the collective. Press the top button to share your color with the class. Your color is now our color, our color is now your color. We are one.
-
-(A message from the previous TA, Ilan: I was not super careful with handling the loop so you may need to press more than once if the timing isn't quite right. Also, I haven't load-tested it so things might just immediately break when everyone pushes the button at once.)
-
-You may ask "but what if I missed class?" Am I not admitted into the collective enlightenment of the *OneColor*?
-
-Of course not! You can go to [https://one-true-colornet.glitch.me/](https://one-true-colornet.glitch.me/) and become one with the ColorNet on the inter-webs. Glitch is a great tool for prototyping sites, interfaces and web-apps that's worth taking some time to get familiar with if you have a chance. Its not super pertinent for the class but good to know either way. 
-
 **\*\*\*Can you set up the script that can read the color anyone else publish and display it on your screen?\*\*\***
 
+![part-d-1](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Lab%206/part-d-1.jpg)
+
+![part-d-2](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Lab%206/part-d-2.png)
 
 ### Part E
 ### Make it your own
 
-Find at least one class (more are okay) partner, and design a distributed application together based on the exercise we asked you to do in this lab.
+I did this part with Runze Zhang(rz387) and Hongjiao Zhang(hz452).
 
 **\*\*\*1. Explain your design\*\*\*** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
 
+Our design is gesture remote control to switch slides back and forth. We think it is very necessary and cool to implement this design because every presenter face the challenge of how to switching slides smoothly while maintain good reliability. Sometimes a remote control device might be out of battery or too long of a distance or might just be the presenter forgets to bring a remote control. That way it would be very difficult to move on with their presentations. With our design, we can remotely control the presentation moving forward and backward with simple gestures to make presenters’ lives much easier.
+
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
+
+![part-e-plan](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Lab%206/part%20e%20plan.jpg)
 
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
 
+Our design is very easy in terms of user interface. If users encounter our design, they only need to wave their hands up/down or left/right to the gesture sensor to suggest which remote signals they want to send, and raspberry pi would help them to inform the server side to move to previous or next slide of the presentation slides. Up/left means previous slide and down/right means next slide.
+
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
 
-<!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
+https://user-images.githubusercontent.com/90330977/200382277-475639d2-ca78-4b81-abdb-42cb201dfb4c.mp4
+
 
