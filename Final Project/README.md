@@ -74,7 +74,7 @@ For the above reasons, the three methods are not interchangeable, as one might b
 
 1x [Dupont Line Set](https://www.amazon.com/gp/product/B07431WH2T/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1)
 
-### Fall-back Plan
+### Risks/Contingencies & Fall-back Plan
 
 I did a fair amount of research on the doability of this project, and I am confident I can make it work. However, if I encounter issues such as one of the methods cannot be achieved, I will leave it out and implement the other two. 
 
