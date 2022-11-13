@@ -12,6 +12,16 @@ This project is done individually by Jiaqi Liu
 
 ## Big Idea
 
+Fingerprint, Key fob, and passcode are three major ways to unlock our homes. Many locks currently on the market offer one of the three methods. However, I believe these three methods are not pure substitutes for one another, and the combination of the three will provide the most convenience without sacrificing safety. Each of them can be the best method to unlock our doors under different circumstances:
+
+- Fingerprint is the best method when the owner of the house wants to unlock the door on their own. This method is the most convenient for the owner because they can never forget to bring their own fingers. However, this method prevents all other people from accessing the house. When the owner wants to grant access to someone else, they would need to personally be present and open the door for them (or give them the finger, which is not recommended).
+
+- Key fob provides an easy one-time access option. When the house owner wants someone near them (for example, their secretary) to grab something from their house for them and would like to grant a quick one-time access, they can give out the key fob. When the person returns the key fob, the owner is assured that they no longer have access.
+
+- Passcode provides a more convenient way of granting access when the owner is not in physical proximity to the door opener. For example, if the user is on a business trip, during which they realize their window was not closed, they can provide the passcode to a friend and grant access to the house without having to hand over the key fob physically.
+
+For the above reasons, the three methods are not interchangeable, as one might be preferred over the others in specific scenarios. This is why I plan to design this lock that supports all three unlocking methods. This design leaves the choice up to the owner.
+
 ## Timeline
 
 11/15: Finish & Submit Project Plan
