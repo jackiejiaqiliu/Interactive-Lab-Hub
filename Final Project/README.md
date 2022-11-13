@@ -52,6 +52,8 @@ For the above reasons, the three methods are not interchangeable, as one might b
 
 ### Parts Needed
 
+The Device:
+
 1x [Raspberry Pi 3 Model B+ Board](https://www.adafruit.com/product/3775)
 
 1x [32GB MicroSD Cards w/ Card Reader](https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/112990066/10290294)
@@ -73,6 +75,18 @@ For the above reasons, the three methods are not interchangeable, as one might b
 1x [12V 2A Power Supply AC Adapter](https://www.amazon.com/gp/product/B086T1N5R4/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1)
 
 1x [Dupont Line Set](https://www.amazon.com/gp/product/B07431WH2T/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1)
+
+The Door:
+
+(not sure about quantaty & size, will decide in-person at Home Depot) Plywood
+
+(not sure about quantaty & size, will decide in-person at Home Depot) [Whitewood Stud](https://www.homedepot.com/p/2-in-x-4-in-x-8-ft-Prime-Whitewood-Stud-058449/312528776)
+
+4x [Zinc Plated Corner Brace](https://www.homedepot.com/p/Everbilt-1-1-2-in-Zinc-Plated-Corner-Brace-Value-Pack-20-Pack-18564/202034301)
+
+2x [Shelf Bracket](https://www.homedepot.com/p/Everbilt-10-in-x-8-in-Black-Medium-Duty-Shelf-Bracket-14287/206091422)
+
+2x Sandbags
 
 ### Risks/Contingencies & Fall-back Plan
 
