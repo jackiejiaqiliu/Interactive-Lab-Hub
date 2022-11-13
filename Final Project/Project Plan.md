@@ -1,6 +1,6 @@
 # Final Project Plan: Multifunctional Electromagnetic Lock
 
-This project is done individually by Jiaqi Liu
+This project will be done individually by Jiaqi Liu
 
 [Big Idea](#big-idea) 
 
@@ -66,7 +66,7 @@ For the above reasons, the three methods are not interchangeable, as one might b
 
 ## Fall-back Plan
 
-
+I did a fair amount of research on the doability of this project, and I am confident I can make it work. However, if I encounter issues such as one of the methods cannot be achieved, I will leave it out and implement the other two. 
 
 ![name of pic](link)
 
