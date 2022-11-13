@@ -86,7 +86,7 @@ The Door:
 
 2x [Shelf Bracket](https://www.homedepot.com/p/Everbilt-10-in-x-8-in-Black-Medium-Duty-Shelf-Bracket-14287/206091422)
 
-2x Sandbags
+2x [Sandbag](https://www.homedepot.com/p/Sunnydaze-Decor-Polyester-Sandbag-Canopy-Weights-in-Black-Set-of-4-WUY-080/319228352?)
 
 ### Risks/Contingencies & Fall-back Plan
 
