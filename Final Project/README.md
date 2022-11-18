@@ -2,8 +2,6 @@
 
 [Project Plan](#project-plan) 
 
-[Functioning Project](#functioning-project) 
-
 [Documentation of Design Process](#documentation-of-design-process) 
 
 [Archive of All Code and Design Patterns](#archive-of-all-code-and-design-patterns) 
@@ -93,9 +91,21 @@ The Door:
 I did a fair amount of research on the doability of this project, and I am confident I can make it work. However, if I encounter issues such as one of the methods cannot be achieved, I will leave it out and implement the other two. 
 
 
-## Functioning Project
-
 ## Documentation of Design Process
+
+### Storyboards
+
+![storyboard 1](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Final%20Project/storyboard%201.JPG)
+
+![storyboard 2](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Final%20Project/storyboard%202.JPG)
+
+![storyboard 3](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Final%20Project/storyboard%203.JPG)
+
+![storyboard 4](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Final%20Project/storyboard%204.JPG)
+
+### Wiring Diagram
+
+![wiring diagram](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Final%20Project/wiring%20diagram.jpg)
 
 ## Archive of All Code and Design Patterns
 
