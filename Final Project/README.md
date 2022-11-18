@@ -97,7 +97,7 @@ I did a fair amount of research on the doability of this project, and I am confi
 
 ![storyboard 1](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Final%20Project/storyboard%201.JPG)
 
-![storyboard 2](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Final%20Project/storyboard%202.JPG)
+![storyboard 2](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Final%20Project/storyboard%202.jpg)
 
 ![storyboard 3](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Final%20Project/storyboard%203.JPG)
 
