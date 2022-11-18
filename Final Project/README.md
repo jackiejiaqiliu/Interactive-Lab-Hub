@@ -93,6 +93,10 @@ I did a fair amount of research on the doability of this project, and I am confi
 
 ## Documentation of Design Process
 
+### Verplank Diagram
+
+![verplank diagram](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Final%20Project/verplank%20diagram.jpg)
+
 ### Storyboards
 
 ![storyboard 1](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Final%20Project/storyboard%201.jpg)
