@@ -99,12 +99,16 @@ I did a fair amount of research on the doability of this project, and I am confi
 
 ### Storyboards
 
+#### Scenario 1: 
 ![storyboard 1](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Final%20Project/storyboard%201.jpg)
 
+#### Scenario 2: 
 ![storyboard 2](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Final%20Project/storyboard%202.jpg)
 
+#### Scenario 3: 
 ![storyboard 3](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Final%20Project/storyboard%203.JPG)
 
+#### Scenario 4: 
 ![storyboard 4](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Final%20Project/storyboard%204.JPG)
 
 ### Wiring Diagram
