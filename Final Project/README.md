@@ -68,8 +68,6 @@ The Device:
 
 1x [5V One Channel Relay Module](https://www.amazon.com/gp/product/B00LW15A4W/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1)
 
-1x [12V/24V to 5V Step Down Converter](https://www.amazon.com/gp/product/B09DGFR24W/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1)
-
 1x [12V 2A Power Supply AC Adapter](https://www.amazon.com/gp/product/B086T1N5R4/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1)
 
 1x [Dupont Line Set](https://www.amazon.com/gp/product/B07431WH2T/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1)
@@ -79,6 +77,8 @@ The Door:
 (not sure about quantaty & size, will decide in-person at Home Depot) Plywood
 
 (not sure about quantaty & size, will decide in-person at Home Depot) [Whitewood Stud](https://www.homedepot.com/p/2-in-x-4-in-x-8-ft-Prime-Whitewood-Stud-058449/312528776)
+
+2x [Door hinge](https://www.homedepot.com/p/Everbilt-3-1-2-in-Satin-Nickel-Square-Corner-Door-Hinge-14982/202558075)
 
 4x [Zinc Plated Corner Brace](https://www.homedepot.com/p/Everbilt-1-1-2-in-Zinc-Plated-Corner-Brace-Value-Pack-20-Pack-18564/202034301)
 
