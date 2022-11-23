@@ -125,7 +125,7 @@ I did a fair amount of research on the doability of this project, and I am confi
 
 #### Tech Demo - click on image to watch video
 
-[<img src="https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Final%20Project/tech.JPG" width="50%">](https://www.youtube.com/watch?v=vm3P7I4BzaE "Tech Demo")
+[<img src="https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Final%20Project/tech.JPG" width="100%">](https://www.youtube.com/watch?v=vm3P7I4BzaE "Tech Demo")
 
 ## Video Demo
 
