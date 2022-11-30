@@ -133,3 +133,9 @@ I did a fair amount of research on the doability of this project, and I am confi
 ## Reflections on Process
 
 ## Group Work Distribution Questionnaire
+
+This is not a group project. The design & development of this device was all done by myself.
+
+Actor credits for video demo:
+
+
