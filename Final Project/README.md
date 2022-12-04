@@ -2,9 +2,9 @@
 
 [Project Plan](#project-plan) 
 
-[Documentation of Design Process](#documentation-of-design-process) 
-
 [Functioning Project](#functioning-project) 
+
+[Documentation of Design Process](#documentation-of-design-process) 
 
 [Archive of All Code and Design Patterns](#archive-of-all-code-and-design-patterns) 
 
