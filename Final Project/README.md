@@ -122,7 +122,7 @@ I did a fair amount of research on the doability of this project, and I am confi
 
 ### Door Design
 
-![door design](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Final%20Project/door-design.jpg)
+![door design](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Final%20Project/door%20design.jpg)
 
 ## Archive of All Code and Design Patterns
 
