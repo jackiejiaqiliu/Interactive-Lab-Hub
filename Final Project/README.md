@@ -4,6 +4,8 @@
 
 [Documentation of Design Process](#documentation-of-design-process) 
 
+[Functioning Project](#functioning-project) 
+
 [Archive of All Code and Design Patterns](#archive-of-all-code-and-design-patterns) 
 
 [Video Demo](#video-demo) 
@@ -90,6 +92,9 @@ The Door:
 
 I did a fair amount of research on the doability of this project, and I am confident I can make it work. However, if I encounter issues such as one of the methods cannot be achieved, I will leave it out and implement the other two. 
 
+## Functioning Project
+
+![final product](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Final%20Project/final_product.jpg)
 
 ## Documentation of Design Process
 
@@ -115,6 +120,10 @@ I did a fair amount of research on the doability of this project, and I am confi
 
 ![wiring diagram](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Final%20Project/wiring_diagram.jpg)
 
+### Door Design
+
+![door design](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Final%20Project/door-design.jpg)
+
 ## Archive of All Code and Design Patterns
 
 #### Please view my source code [here](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Final%20Project/electromagnetic_lock.py).
@@ -127,6 +136,9 @@ I did a fair amount of research on the doability of this project, and I am confi
 
 [<img src="https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Final%20Project/tech.png" width="50%">](https://www.youtube.com/watch?v=vm3P7I4BzaE "Tech Demo")
 
+#### Make the door & attach device
+
+![documentation-door](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Final%20Project/documentation-door.jpg)
 
 ## Video Demo
 
