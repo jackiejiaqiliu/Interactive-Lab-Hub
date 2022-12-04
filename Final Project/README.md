@@ -113,7 +113,7 @@ I did a fair amount of research on the doability of this project, and I am confi
 
 ### Wiring Diagram
 
-![wiring diagram](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Final%20Project/wiring%20diagram.jpg)
+![wiring diagram](https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Final%20Project/wiring_diagram.jpg)
 
 ## Archive of All Code and Design Patterns
 
