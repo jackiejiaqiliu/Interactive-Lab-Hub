@@ -12,7 +12,7 @@
 
 [Reflections on Process](#reflections-on-process) 
 
-[Group Work Distribution Questionnaire](#group-work-distribution-questionnaire) 
+[Group Work Distribution](#group-work-distribution) 
 
 ## Project Plan
 
@@ -154,7 +154,7 @@ After making the device, I made the door and attached my device to it. I did not
 
 Along the way, I kept good documentation of the entire making process of my device using drawings, texts, and photographs. I also did a simple photoshoot (front and back view) for my device in a lightbox, and shot a demo video to demonstrate a user interacting with it.
 
-## Group Work Distribution Questionnaire
+## Group Work Distribution
 
 This is not a group project. The design & development of this device were all done by Jiaqi.
 
