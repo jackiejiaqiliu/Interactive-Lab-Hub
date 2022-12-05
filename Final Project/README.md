@@ -72,7 +72,7 @@ The Device:
 
 1x [12V 2A Power Supply AC Adapter](https://www.amazon.com/gp/product/B086T1N5R4/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1)
 
-1x [Dupont Line Set](https://www.amazon.com/gp/product/B07431WH2T/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1)
+1x [Dupont Wire Set](https://www.amazon.com/gp/product/B07431WH2T/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1)
 
 The Door:
 
@@ -143,6 +143,16 @@ I did a fair amount of research on the doability of this project, and I am confi
 ## Video Demo
 
 ## Reflections on Process
+
+I began this project by sketching out detailed design plans. I started by writing a high-level summary of why I'm making this device, how it works, and how it will address real-world user pain points, and I developed a Verplank diagram based on this information. I also illustrated the various use cases of my device and the scenarios in which each of my lock's functionality works best in the storyboards. I presented this proposal to the IDD class and received feedback from the teaching team and peers. 
+
+The next step of the design stage is developing a detailed wiring diagram and a design for the door -- these graphs show every detail of how the hardware of my lock would work. I tried to resolve all issues in design during this stage before implementing them physically. 
+
+The biggest challenge I faced was connecting and programming the device's hardware. I had little background in hardware and had to learn everything, from soldering and connecting GPIOs with different sensors using Dupont wires to programming the hardware parts, all from scratch. During this process, I encountered the problem of not being able to connect my AS608 fingerprint module correctly to the pi. It took me about a week to debug -- from checking my code to changing the system settings of my pi. I even re-burned the image to my micro-SD card. It ended up that GPIO14(TX) and GPIO15(RX) on my pi were not working properly. To resolve this, I ordered a USB to TTX module and used it to connect my fingerprint module to my pi. This is an excellent example of how my limited experience in working with hardware affected the development of my project. Next time when I work with hardware, I will remember to test the hardware first.
+
+After making the device, I made the door and attached my device to it. I did not encounter any problems in woodworking because I had extensive experience working with wood.
+
+Along the way, I kept good documentation of the entire making process of my device using drawings, texts, and photographs. I also did a simple photoshoot (front and back view) for my device in a lightbox, and shot a demo video to demonstrate a user interacting with it.
 
 ## Group Work Distribution Questionnaire
 
