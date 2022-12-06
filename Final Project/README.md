@@ -142,6 +142,8 @@ I did a fair amount of research on the doability of this project, and I am confi
 
 ## Video Demo
 
+[<img src="https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Final%20Project/demo.png" width="50%">](https://www.youtube.com/watch?v=g4eqpNqbKcA "Video Demo")
+
 ## Reflections on Process
 
 I began this project by sketching out detailed design plans. I started by writing a high-level summary of why I'm making this device, how it works, and how it will address real-world user pain points, and I developed a Verplank diagram based on this information. I also illustrated the various use cases of my device and the scenarios in which each of my lock's functionality works best in the storyboards. I presented this proposal to the IDD class and received feedback from the teaching team and peers. 
@@ -158,6 +160,6 @@ Along the way, I kept good documentation of the entire making process of my devi
 
 This is not a group project. The design & development of this device were all done by Jiaqi.
 
-Actor credits for video demo:
+Actor credits for video demo: Gabriel Xu
 
 
