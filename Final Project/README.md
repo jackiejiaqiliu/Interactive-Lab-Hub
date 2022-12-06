@@ -142,7 +142,7 @@ I did a fair amount of research on the doability of this project, and I am confi
 
 ## Video Demo
 
-[<img src="https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Final%20Project/demo.png" width="50%">](https://www.youtube.com/watch?v=g4eqpNqbKcA "Video Demo")
+[<img src="https://github.com/jackiejiaqiliu/Interactive-Lab-Hub/blob/Fall2022/Final%20Project/demo.png" width="50%">](https://youtu.be/89Mv4601DZw "Video Demo")
 
 ## Reflections on Process
 
